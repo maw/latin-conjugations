@@ -1,0 +1,52 @@
+label: sum
+output: sum.pdf
+updated: 07 Jan 2018
+example_word: sum, esse, fui, futurus
+left:
+  - title: Active Indicative
+    fill: "#cb202c"
+    groups:
+      - "Present | sum | es | est | sumus | estis | sunt"
+      - "Imperfect | eram | eras | erat | eramus | eratis | erant"
+      - "Future | ero | eris | erit | erimus | eritis | erint"
+      - "Perfect | fui | fuisti | fuit | fuimus | fuistis | fuerunt"
+      - "Pluperfect | fueram | fueras | fuerat | fueramus | fuertis | fuerant"
+      - "Future Perfect | fuero | fueris | fueris | fuerimus | fueritis | fuerint"
+
+  - title: Active Subjunctive
+    fill: "#2075cb"
+    groups:
+      - "Present | sim | sis | sit | simus | sitis | sint"
+      - "Imperfect | essem (forem) | esses (fores) | esset (foret) | essemus (foremus) | essetis (foretis) | essent (forent)"
+      - " | | | | | | "
+      - "Perfect | fuerim | fueris | fuerit | fuerimus | fueritis | fuerint"
+      - "Pluperfect | fuissem | fuisses | fuisset | fuissemus | fuissetis | fuissent"
+      - " | | | | | | "
+
+
+right:
+  - title: Infinitive
+    fill: "#42b314"
+    groups:
+      - "Present | esse"
+      - "Future | futurus esse"
+      - "Perfect | fuisse"
+
+  - title: Participle
+    fill: "#b2640a"
+    groups:
+      - "Present | ens, -ntis"
+      - "Future | futurus"
+      - "Perfect |"
+
+  - title: Gerund
+    fill: "#a020cb"
+    type: headerless
+    groups:
+      - "|"
+
+  - title: Imperative
+    fill: "#04aba5"
+    groups:
+      - "singular | es |"
+      - "plural | este |"
